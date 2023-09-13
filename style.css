@@ -1,0 +1,457 @@
+@keyframes animacao{
+
+    from {background-color: #E0FFFF;}
+    to {background-color: #76cbff;}
+
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+}
+
+.logo {
+    width: 100px;
+}
+
+header{
+    text-align: center;
+    height: 300px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 15px;
+
+}
+
+html{
+    background: #1da1f2;
+    height: 100%;
+}
+
+.centro {
+    position: absolute;
+    left: 150px;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 20px;
+    height: 100px;
+}
+
+.p2 {
+    font-size: 18px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sessao1 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+      
+.sessao1:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao1:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao1:hover::after{
+    opacity:1;
+}
+
+.sessao2 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+.sessao3 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+.sessao4 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+.sessao5 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+.sessao6 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+.sessao7 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+.sessao8 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+.sessao9 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+.sessao10 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+.sessao11 {
+    width: 300px;
+    border: 1px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #E0FFFF;
+    position:relative;
+    display:inline-block;
+    transition: all 0.6s ;
+}
+
+/* TER ##########################################################################################################*/
+
+.footer {
+    display: flex;
+    position: absolute;
+    margin-top: 5500px;
+    width: 100%;
+    line-height: 100px;
+}
+
+.rodape {
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    left: 350px;
+}
+
+/*EFEITOS -------------------------------------------------------------------------------------*/
+
+.sessao2:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao2:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao2:hover::after{
+    opacity:1;
+}
+
+.sessao3:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao3:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao3:hover::after{
+    opacity:1;
+}
+
+.sessao4:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao4:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao4:hover::after{
+    opacity:1;
+}
+
+.sessao5:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao5:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao5:hover::after{
+    opacity:1;
+}
+
+.sessao6:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao6:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao6:hover::after{
+    opacity:1;
+}
+
+.sessao7:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao7:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao7:hover::after{
+    opacity:1;
+}
+
+.sessao8:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao8:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao8:hover::after{
+    opacity:1;
+}
+
+.sessao9:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao9:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao9:hover::after{
+    opacity:1;
+}
+
+.sessao10:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:150px;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao10:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao10:hover::after{
+    opacity:1;
+}
+
+.sessao11:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:150px;
+    opacity:0;
+    transition: all 0.6s ;
+    z-index: -1;
+}
+      
+.sessao11:hover{
+    transform:scale(1.25,1.25);
+    background-color: #EEAD2D;
+}
+      
+.sessao11:hover::after{
+    opacity:1;
+}
+
+/* RESPONSIVIDADE em DISPOSITIVOS*/
+
+@media(max-width: 1200px) {
+    html body section .cabecalho .page-container .flex-container .head .footer .rodape{
+        width: 1000px;
+    }
+}
+
+@media(max-width: 1024px) {
+    html body section .cabecalho .page-container .flex-container .head .footer .rodape {
+        width: 700px;
+    }
+}
+
+@media(max-width: 768px) {
+    html body section .cabecalho .page-container .flex-container .head .footer .rodape {
+        width: 400px;
+    }
+}
+
+@media(max-width: 425px) {
+    html body section .cabecalho .page-container .flex-container .head .footer .rodape{
+        width: 320px;
+    }
+}
